@@ -1,0 +1,17 @@
+.inputs-container-style {
+    width: 80%;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--main-color);
+    transition: var(--main-transition);
+    width: 100%;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
